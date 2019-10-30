@@ -1,0 +1,42 @@
+JPMorgan Chase & Co.
+Surendar Deenadayalan
+Tue, October 29 2019 01:19:10 PM
+2019 Annual Review for Surendar Deenadayalan (D582183)
+Associate
+•	CORPORATE & INVESTMENT BANK
+•	Matrix Managers:
+•	There are no Matrix Managers
+•	Manager: Mark Aitken
+•	Employee Status: Employee Draft
+Business Results
+Self-Assessment Comments
+First half of this year I was worked with QLS team. During that time I delivered important front office demands and GPS application demands and GPS support. Another goal in QLS team to get the new joiner trained and explained them about QLS system and how to resolve the QLS L3 related issues. I trained three new joiners and got them into speed. Also I’ve received the feedback from new joiners.
+Second half of this year, I moved to our new SCPP Data Warehouse team where my main goal was to learn about BRIAN API and Rule Engine. Successfully learned about application and resolved ETF related environment issues in UAT.
+Later I started working in a new project  FX Decision Engine. I designed the application architecture and developed the new SCPP Queue Utility application from scratch. This new application is to consume message from COSMIC and convert them to BRIAN Ruleset. I have configured new aim and Jenkins setup for this app and deployed in both SIT and UAT.
+Created a new queue FX client instruction Queue and integrated with Queue utility application. The first phase of the SCPP Queue Utility application has been successfully released into production. The Application is currently consuming the message from COSMIC in prod environment. This new the SCPP Queue Utility application is more generic and extendable. In future if new Queue needs to setup then it can be easily configured. The new ASDA client requires back feed into COSMIC, the same Queue utility app can be used for back feed feature.
+In 2020, I will continue to develop new application and improve testing strategy to get full test coverage.  
+Client / Customer / Stakeholder
+Self-Assessment Comments
+When I was working in QLS team I resolved multiple support issues including the P3 and P2 issues and I was only person assigned for all GPS related issues and efficiently resolved all support issue.  
+QLS send report to GPS on daily basis and it was a manual process. I developed new application to automate the report generation and now GPS gets automated reports. 
+ In SCPP DW team, I worked with ETF team and resolved all BRIAN released issues in UAT. Resolved critical Key store and DNS issue in BRIAN UAT and it allowed BRIAN to run continuously on UAT for ETF end to end testing.
+Recently BRIAN had multithreading issue so it was returning incorrect values to ETF. It was main blocker for ETF testing so we had to toggle off the BRIAN to continue the testing.  I worked without our team member Satya and resolved the multithreading issue .As the result of this fix, BRIAN is now returning correct value to ETF.
+ In FX Decision Engine Project, I’ve introduced the new feature 'Time Sliced Version Search' in BRIAN API and this feature allows the client to pass in an Evaluated Date and a rule which matches the parameters and has a start date to end date window which evaluated date falls into will be returned.
+I’ve also started working new project called FX reconciliation. This application generates report from BRIAN ruleset and compares it COSMIC reports, generate another report with all discrepancies and send an automated email to COSMIC.
+In SCPP DW team, I had good an experience to work with multiple clients and gathering requirement. In 2020, I will continue work towards the new features to meet the client requirement. 
+Teamwork and Leadership
+Self-Assessment Comments
+The main team work contribution for me is to transfer my knowledge to new team members in London. This was a challenging task due different location, however all three of the new team members were very positive regarding the delivery. Feedback also provided by new members.
+In QLS I was main contact for GPS where I delivered multiple demands, regression testing and automated report generation software. I took responsibility for GPS L3 support.
+In SCPP DW team, I collaborated with MQ team and introduced new queue to consume message from COSMIC. I worked closely with MQ team to setup all queue related configuration.
+I also worked with COSMIC TUBI team to setup the test environment for COSMIC – MSRD communication and successfully completed the MQ testing.
+I have taken leadership for FX decision engine projects. I partnered with CSIDE team and gathered all information to develop the new application. Organised meetings with COSMIC, CSIDE and TBE team to get information about functional and Business requirement.
+Efficiently utilized the expertise of the global team member like Graham to get more understanding about component model.
+Going forward I should work close with global team and follow the new SCPP SDLC process and focusing more on implementing the fitnesse end to end testing.
+Risk, Controls, and Conduct
+Self-Assessment Comments
+Overall Performance Summary
+Self-Assessment Comments
+Attachments
+Employee
+
